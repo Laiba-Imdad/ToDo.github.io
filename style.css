@@ -1,0 +1,118 @@
+body
+{
+    font-family: cursive;
+    background-color: #fcfcfc;
+}
+#heading
+{
+    text-align: center;
+    color: #00264d;
+    margin-bottom: 60px;
+}
+.container
+{
+    color:#f6f6f2;
+    cursor: pointer;
+    width:60%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+input
+{    
+    font-family: cursive;
+    width:65%;
+    font-size: 20px;
+    color: #00264d;
+    padding: 5px 10px;
+    border: 2px solid #00264d;
+    border-radius: 5px;
+    vertical-align: bottom;
+}
+button
+{
+    display: inline-block;
+    background-color: #00264d;
+    color: #f6f6f2;
+    font-size: 15px;
+    border: none;
+    width:29%;
+    border-radius: 5px;
+    padding:6px 5px;
+    padding-right: 15px;
+    margin-left:4px;
+    font-family: cursive;
+}
+#list
+{
+    list-style: none;
+    font-size: 22px;
+    width:70%;
+    margin: auto;
+    padding-left:0px;
+    padding: 10px;
+}
+.listItem
+{
+    color: #00264d;
+    background-color: white;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-bottom: 10px;
+    border-left: 5px solid #32A350;
+    box-shadow: 4px 2px 14px -2px rgba(0,0,0,0.75);
+}
+li
+{
+    list-style-type: none;
+}
+.strike 
+{
+    text-decoration: line-through;
+    color:#00264d;
+    box-shadow: none;
+    border-left: 5px solid #EA4335;
+}
+.fa-plus
+{
+    color: #f6f6f2;
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.fa-square
+{
+    margin-right: 10px;
+    color: #00264d;
+}
+.fa-trash
+{
+    float:right;
+    color: #00264d;
+    cursor: pointer;
+    transition: 4s;
+}
+.fa-check-square
+{
+   color: #00264d;
+   margin-right: 10px;
+}
+@media screen and (max-width: 768px) {
+    .container 
+    {
+        width:85%;
+    }
+    input[type="text"] 
+    {
+        width: 100%; 
+        box-sizing: border-box;
+        margin-bottom: 2px;
+    }
+    button
+    {
+        width: 100%;
+        margin:0px;
+    }
+    #list
+    {
+        width:85%;
+    }
+  }
